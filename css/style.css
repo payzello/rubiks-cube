@@ -1,0 +1,84 @@
+body {
+  /* background: #fff; */
+}
+
+
+.solved {
+  text-align: center;
+  margin-top: 8em;
+  display: none;
+}
+
+.solved-heading {
+  font-size: 2em;
+  color: #d9ccff;
+  margin: 1em;
+}
+
+.solved-content {
+  font-size: 1.2em;
+  color: #d9ccff;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.retry {
+  background-image: linear-gradient(to right, #8181ff, #5151ff);
+  color: #fff;
+  margin: 3em auto;
+  padding: 1.2em;
+  width: 20%;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.timer {
+  text-align: center;
+  background-image: linear-gradient(to right, #8181ff, #5151ff);
+  color: #fff;
+  font-size: 1em;
+  padding: 1.2em;
+  width: 5em;
+  border-radius: 50px;
+  margin: 0 auto;
+  line-height: 0;
+}
+
+#cubeControls {
+    width: 300px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    top: 65px;
+    z-index: 999;
+    margin-bottom: 2.5em;
+    margin-top: 8em;
+}
+
+a img {
+  margin-left: 1em;
+  margin-right: 1em;
+  cursor: pointer;
+}
+
+#container {
+	width: 100%;
+	height: 800px;
+    background: #000;
+    background: -moz-radial-gradient(center, ellipse cover, #444 0%, #000000 90%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#444), color-stop(90%,#000000));
+    background: -webkit-radial-gradient(center, ellipse cover, #444 0%,#000000 90%);
+    background: -o-radial-gradient(center, ellipse cover, #444 0%,#000000 90%);
+    background: -ms-radial-gradient(center, ellipse cover, #444 0%,#000000 90%);
+    background: transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#000000',GradientType=1 );
+}
+@media screen and (max-width: 1200px) {
+	#container {
+		height: 500px;
+	}
+}
+
+.cube .sticker.stickerLogo {
+  background: #fff;
+}
