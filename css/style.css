@@ -6,6 +6,7 @@ body {
 .solved {
   text-align: center;
   display: none;
+  margin-top: 4em;
 }
 
 .solved-heading {
@@ -17,14 +18,15 @@ body {
 .solved-content {
   font-size: 1.2em;
   color: #d9ccff;
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
+  line-height: 1.2em;
 }
 
 .retry {
   background-image: linear-gradient(to right, #8181ff, #5151ff);
   color: #fff;
-  margin: 3em auto;
+  margin: 5.5em auto;
   padding: 1.2em;
   width: 20%;
   border-radius: 50px;
