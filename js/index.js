@@ -41,13 +41,13 @@ function initCube3d() {
 $(document).ready( function(){ 
 	initCube3d();
 	$('#readLink').addClass('active');
-	cube.shuffle(10);
+	cube.shuffle(1);
 	
 	setTimeout(checkSolved, 3000);
   
   $('.retry').on('click', () => {
     clearInterval(interval);
-    cube.shuffle(10);
+    cube.shuffle(2);
     
     $('#container').css('display', 'block');
     $('#cubeControls').css('display', 'block');
